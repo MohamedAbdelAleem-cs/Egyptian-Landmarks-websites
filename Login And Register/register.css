@@ -1,0 +1,115 @@
+body {
+
+    padding:0;
+    margin:0;
+    background-image: url("eberhard-grossgasteiger-jCL98LGaeoE-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+   
+}
+.register_box {
+    width: 600px;
+    height: 650px;
+    color: gold;
+    background-color: rgba(02, 0, 0, 0.86);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    box-sizing: border-box;
+    transform: translate(-50%,-50%);
+    border-radius: 12px;
+    padding: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.8);
+}
+/*
+.avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: 5px;
+    left:105px;
+    opacity:1;
+    
+}
+    */
+h1{
+    padding: 5px 0px 10px 0px;
+    margin-top:30px;
+    text-align:center;
+    font-size:22px;
+
+    
+   
+}
+.register_box label {
+    font-weight: bold;
+}
+.register_box input{
+
+  
+    
+
+}
+    .register_box input[type="text"], input[type="password"], input[type="date"] {
+        border: none;
+        border: 1px solid gold;
+        outline: none;
+        background: transparent;
+        height: 40px;
+        color: gold;
+        font-size: 16px;
+        width: 30%;
+    }
+    
+
+        .register_box input[type="submit"] {
+            border: none;
+            outline: none;
+            height: 40px;
+            color: black;
+            font-size: 20px;
+            font-weight: bold;
+            border-radius: 20px;
+            background-color: gold;
+            color: black;
+            margin-top: 50px;
+            text-align:center;
+          width:60%;
+          position:absolute;
+          margin:0px 20%;
+         
+        }
+    .register_box input[type="submit"]:hover {
+        cursor: pointer;
+        background-color:red;
+        color:gold;
+    }
+.register_box a{
+
+    text-decoration:none;
+    font-size:12px;
+    color:darkgray;
+  
+
+}
+.register_box a:hover {
+    
+    color:#f6bd04;
+}
+.as>div{
+
+    margin:50px 10px
+}
+div.aa{
+
+    
+}
+.b > input[type="password"] {
+    width: 70%;
+}
+.d > input[type="text"] {
+    width: 70%;
+    
+}

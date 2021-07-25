@@ -1,0 +1,63 @@
+
+*{
+ box-sizing: border-box;
+}
+body {
+ background-image: url("Background.jpg");
+}
+div{
+ margin-bottom:120px; 
+ 
+ 
+}
+img{
+    width: 70% ;
+    height: 500px;
+    border: 5px outset black;
+    margin: 20px  15% ;
+     border-radius: 12px;
+     opacity: 1;
+     transition: 1s;
+    
+}
+h1{
+  font-size:50px;
+  font-weight:bold;
+ background-color: rgba(0,0,0,.7);
+  border-radius:12px;
+  width:30% ;
+  color: gold;
+  margin: 0px auto;
+  margin-top:50px; 
+  text-align: center;
+  padding:20px;
+  border: 1px solid gold;
+  
+   
+}
+p{
+ font-size:26px;
+ margin: 50px 50px;
+ background-color: rgba(0,0,0,.5);
+ color:gold;
+ border-radius: 12px;
+ 
+ padding: 20px;
+}
+h1:hover{
+ background-color: rgba(0,0,0,1);
+ transition: .5s;
+}
+p:hover{
+ background-color: rgba(0,0,0,.8);
+ transition: .5s;
+}
+img:hover{
+ opacity: 1;
+ width: 90%;
+ margin: 5%;
+ transition: 1s;
+ height: 650px;
+
+ 
+}
